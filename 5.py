@@ -16,7 +16,7 @@ while summ1!=0:
 #print(lenn)
 while lenn!=0:
     spisok=spisok+str(summ-summ//c*c)
-    summ=summ//7
+    summ=summ//c
     lenn=lenn-1
 #print(spisok)
 spisok=spisok[::-1]
